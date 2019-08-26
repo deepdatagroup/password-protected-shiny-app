@@ -84,11 +84,11 @@ createLink <- function(val){
 
 
 user_base <- data_frame(
-    user = c("jhon","user"), ##add more users here
+    user = c("user1","user2"), ##add more users here
     password = c("pass","pass"), 
     password_hash = sapply(c("pass","pass"), sodium::password_store), 
     permissions = c("admin", "admin"),
-    name = c("Jhon Parra", "Invitado")
+    name = c("youruserhere1", "youruserhere2")
 )
 
 
